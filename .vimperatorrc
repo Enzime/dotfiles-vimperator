@@ -1,0 +1,18 @@
+set gui=none,bookmarks
+map b B
+noremap c b
+noremap a <Nop>
+noremap A <Nop>
+noremap gf <Nop>
+noremap gh <Nop>
+noremap go <Nop>
+noremap m <Nop>
+noremap M <Nop>
+noremap q <Nop>
+noremap <C-a> <Nop>
+noremap <C-h> <Nop>
+noremap <C-j> <Nop>
+noremap <F1> <Nop>
+noremap ~ <Nop>
+
+" vim: set ft=vimperator:
