@@ -1,6 +1,9 @@
 set gui=none,bookmarks
+
 map b B
 noremap c b
+noremap i c
+
 noremap a <Nop>
 noremap A <Nop>
 noremap gf <Nop>
