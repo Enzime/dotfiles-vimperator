@@ -1,4 +1,5 @@
 set gui=none,bookmarks
+set defsearch=!g
 
 map b B
 noremap c b
