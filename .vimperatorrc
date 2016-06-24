@@ -1,9 +1,14 @@
-set gui=none,bookmarks
+set gui=none
 set defsearch=!g
 
 map b B
 noremap c b
 noremap i c
+
+map <C-a> gT
+map <C-h> gT
+map <C-f> gt
+map <C-l> gt
 
 noremap a <Nop>
 noremap A <Nop>
@@ -13,8 +18,6 @@ noremap go <Nop>
 noremap m <Nop>
 noremap M <Nop>
 noremap q <Nop>
-noremap <C-a> <Nop>
-noremap <C-h> <Nop>
 noremap <C-j> <Nop>
 noremap <F1> <Nop>
 noremap ~ <Nop>
