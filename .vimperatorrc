@@ -1,17 +1,22 @@
-set gui=none
-set defsearch=!g
+set gui=none,tabs
+" set defsearch=!g
 
-map b B
+noremap b B
 noremap c b
 noremap i c
 
+noremap A H
+noremap S F
+noremap F L
+
 map <C-a> gT
-map <C-h> gT
-map <C-f> gt
+noremap <C-s> <C-u>
 map <C-l> gt
 
+map <C-h> gT
+map <C-f> gt
+
 noremap a <Nop>
-noremap A <Nop>
 noremap gf <Nop>
 noremap gh <Nop>
 noremap go <Nop>
@@ -21,5 +26,8 @@ noremap q <Nop>
 noremap <C-j> <Nop>
 noremap <F1> <Nop>
 noremap ~ <Nop>
+
+noremap ZQ wqall
+noremap ZR restart
 
 " vim: set ft=vimperator:
