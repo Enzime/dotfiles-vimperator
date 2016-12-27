@@ -27,7 +27,7 @@ noremap <C-j> <Nop>
 noremap <F1> <Nop>
 noremap ~ <Nop>
 
-noremap ZQ wqall
-noremap ZR restart
+noremap ZQ :wqall<CR>
+noremap ZR :restart<CR>
 
 " vim: set ft=vimperator:
